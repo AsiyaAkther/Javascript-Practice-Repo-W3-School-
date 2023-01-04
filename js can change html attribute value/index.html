@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change html attribute value</title>
+</head>
+<body>
+    <h2>Javascript can change html attribute value</h2>
+    <p>In this case Javascript change the value of the src attribute of an image.</p>
+    <button onclick="document.getElementById('myImage').src = 'images/bulbon.gif'">Turn on the light</button>
+    <img id="myImage" src="images/bulboff.gif" alt="" style="width:100px">
+    <button onclick="document.getElementById('myImage').src = 'images/bulboff.gif'">Turn off the light</button>
+</body>
+</html>
