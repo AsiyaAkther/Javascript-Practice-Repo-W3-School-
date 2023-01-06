@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment operators</title>
+</head>
+<body>
+    <h3>Exponentiation Assignment Operator</h3>
+    <p>The **= Operator</p>
+    <p id="expo_demo"></p>
+
+    <script>
+        let expo_val = 10;
+        expo_val **= 5;
+        document.getElementById("expo_demo").innerHTML = expo_val;
+    </script>
+
+    <br>
+
+    <h3>Javascript Left Shift Assignment Operator</h3>
+    <p>The <<= Operator</p>
+    <p id="lsa_demo"></p>
+
+    <script>
+        let lsa_val = -100;
+        lsa_val <<= 5;
+        document.getElementById("lsa_demo").innerHTML = "Value of x is: " + lsa_val;
+    </script>
+
+    <br>
+
+    <h3>Javascript Right Shift Assignment Operator</h3>
+    <p>The >>= Operator</p>
+    <p id="rsa_demo"></p>
+    <script>
+        let rsa_val = -100;
+        rsa_val >>= 5;
+        document.getElementById("rsa_demo").innerHTML = rsa_val;
+    </script>
+
+    <br>
+
+    <h3>Javascript Unsigned Right Shift Assignment Operator</h3>
+    <p>The >>>= Operator</p>
+    <p id="unsigned_demo"></p>
+
+    <script>
+        let unsigned_val =-100;
+        unsigned_val >>>= 5;
+        document.getElementById("unsigned_demo").innerHTML = unsigned_val;
+    </script>
+
+    <br>
+
+    <h3>Bitwise AND Assignment in Javascript</h3>
+    <p>The &= Operator</p>
+    <p id="bit_and_demo"></p>
+
+    <script>
+        let bit_and_val = 100;
+        bit_and_val &= 5;
+        document.getElementById("bit_and_demo").innerHTML = bit_and_val;
+    </script>
+</body>
+</html>
