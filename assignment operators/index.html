@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment operators</title>
 </head>
-<body>
+<body style="text-align:center">
     <h3>Exponentiation Assignment Operator</h3>
     <p>The **= Operator</p>
     <p id="expo_demo"></p>
@@ -54,7 +54,7 @@
 
     <br>
 
-    <h3>Bitwise AND Assignment in Javascript</h3>
+    <h3>Javascript Bitwise AND Assignment Operator</h3>
     <p>The &= Operator</p>
     <p id="bit_and_demo"></p>
 
@@ -62,6 +62,69 @@
         let bit_and_val = 100;
         bit_and_val &= 5;
         document.getElementById("bit_and_demo").innerHTML = bit_and_val;
+    </script>
+
+    <br>
+
+    <h3>Javascript Bitwise OR Assignment Operator </h3>
+    <p>The |= Operator</p>
+    <p id="bit_or_demo"></p>
+
+    <script>
+        let bit_or_val = 100;
+        bit_or_val |= 5;
+        document.getElementById("bit_or_demo").innerHTML = bit_or_val;
+    </script>
+
+    <br>
+
+    <h3>Javascript Bitwise XOR Assignment Operator</h3>
+    <p>The ^= operator</p>
+    <p id="bit_xor_demo"></p>
+
+    <script>
+        let bit_xor_val = 100;
+        bit_xor_val ^= 5;
+        document.getElementById("bit_xor_demo").innerHTML = bit_xor_val;
+    </script>
+
+    <br>
+
+    <h3>Javascript Logical AND assignment operator</h3>
+    <p>If the first value is true, the second value is assigned.</p>
+    <p>The &&= Operator</p>
+    <p id="logical_and_demo"></p>
+
+    <script>
+        let logical_and_val = 100;
+        logical_and_val &&= 5;
+        document.getElementById("logical_and_demo").innerHTML = logical_and_val;
+    </script>
+
+    <br>
+
+    <h3>Javascript Logical OR assignment operator</h3>
+    <p>If the first value is false, the second value is assigned.</p>
+    <p>The ||= Operator</p>
+    <p id="logical_or_demo"></p>
+
+    <script>
+        let logical_or_val = undefined;
+        logical_or_val ||= 5;
+        document.getElementById("logical_or_demo").innerHTML = logical_or_val;
+    </script>
+
+    <br>
+
+    <h3>Javascript Nullish coalescing assignment operator</h3>
+    <p>If the first value is undefined or null, the second value is assigned.</p>
+    <p>The ??= Operator</p>
+    <p id="nca_demo"></p>
+
+    <script>
+        let nca_val = 100;
+        nca_val ??= 5;
+        document.getElementById("nca_demo").innerHTML = nca_val;
     </script>
 </body>
 </html>

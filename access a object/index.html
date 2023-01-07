@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access a object</title>
+</head>
+<body>
+    <h2>There are two different ways to access an object property</h2>
+    <p>You can use person.property or person["property"].</p>
+    <p id="demo_one"></p>
+    <p id="demo_two"></p>
+
+    <script>
+        const person = {
+          firstName: "John",
+          lastName : "Doe",
+          id     :  5566
+        };
+        document.getElementById("demo_one").innerHTML = person.firstName + " " + person.lastName;
+    </script>
+
+    <script>
+        const person2 = {
+        firstName: "John",
+        lastName : "Doe",
+        id     :  5566
+        };
+        document.getElementById("demo_two").innerHTML = person2["firstName"] + " " + person2["lastName"];
+    </script>
+</body>
+</html>
