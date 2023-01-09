@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js string escape</title>
+</head>
+<body>
+    <h2>Javascript Escape Strings (double quote)</h2>
+    <p>The escape sequence \" inserts a double quote in a string.</p>
+    <p id="double_demo"></p>
+
+    <script>
+        let doubleText = "We are the so-called \"Vikings\" from the north";
+        document.getElementById("double_demo").innerHTML = doubleText;
+    </script>
+
+    <h2>Javascript Escape Strings (single quote)</h2>
+    <p>The escape sequence \' inserts a double quote in a string.</p>
+    <p id="single_demo"></p>
+
+    <script>
+        let singleText = "It\'s alright";
+        document.getElementById("single_demo").innerHTML = singleText;
+    </script>
+
+    <h2>Javascript Escape Strings (backslash)</h2>
+    <p>The escape sequence \\ inserts a backslash in a string.</p>
+    <p id="backslash_demo"></p>
+
+    <script>
+        let backSlashText = "The character \\ is called backslash";
+        document.getElementById("backslash_demo").innerHTML = backSlashText;
+    </script>
+</body>
+</html>
