@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js string method</title>
+</head>
+<body>
+    <h1>Javascript String Method</h1>
+    <h3>The padStart() Method</h3>
+    <p>The padStart() method pads a string with another string</p>
+    <p id="pad_start_demo"></p>
+    <p id="pad_start_demo_two"></p>
+    <p id="pad_start_demo_three"></p>
+    <script>
+        let padStartText = "5";
+        padStarttextTwo = padStartText.padStart(4,"0");
+        let numb = 5;
+        let numbText = numb.toString();
+        
+        document.getElementById("pad_start_demo").innerHTML = padStartText.padStart(4,"x");
+        document.getElementById("pad_start_demo_two").innerHTML = padStarttextTwo;
+        document.getElementById("pad_start_demo_three").innerHTML = numbText.padStart(4,0);
+    </script>
+
+</body>
+</html>

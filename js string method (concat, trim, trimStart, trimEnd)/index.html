@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js string method</title>
+</head>
+<body>
+    <h1>Javascript String Method</h1>
+    <h3>The concat() Method</h3>
+    <p id="concat_demo"></p>
+
+    <script>
+        let concatTextOne = "Hello";
+        let concatTextTwo = "World!";
+        let concatStringFinal = concatTextOne.concat(" ", concatTextTwo);
+        document.getElementById("concat_demo").innerHTML = concatStringFinal;
+    </script>
+    <br>
+    <h3>The trim() Method</h3>
+    <p id="trim_demo"></p>
+
+    <script>
+        let trimTextOne = "     Hello World!     ";
+        let trimStringFinal = trimTextOne.trim();
+        document.getElementById("trim_demo").innerHTML = "Text1 length = " + trimTextOne.length + "<br>Text2 length = " + trimStringFinal.length;
+    </script>
+
+    <br>
+    <h3>The trimStart() Method</h3>
+    <p id="trim_start_demo"></p>
+
+    <script>
+        let trimStartTextOne = "     Hello World!";
+        let trimStartStringFinal = trimStartTextOne.trimStart();
+        document.getElementById("trim_start_demo").innerHTML = "Text1 length = " + trimStartTextOne.length + "<br>Text2 length = " + trimStartStringFinal.length;
+    </script>
+
+    <br>
+    <h3>The trimEnd() Method</h3>
+    <p id="trim_end_demo"></p>
+
+    <script>
+        let trimEndTextOne = "Hello World!           ";
+        let trimEndStringFinal = trimEndTextOne.trimEnd();
+        document.getElementById("trim_end_demo").innerHTML = "Text1 length = " + trimEndTextOne.length + "<br>Text2 length = " + trimEndStringFinal.length;
+    </script>
+</body>
+</html>

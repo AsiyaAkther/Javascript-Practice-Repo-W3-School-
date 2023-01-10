@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js string method</title>
+</head>
+<body>
+    <h1>Javascript String Method</h1>
+    <h3>The ReplaceAll() method</h3>
+    <p>ES2021 intoduced the string method replaceAll().</p>
+    <p  id="replace_all_demo"></p>
+    <script>
+        let replaceAllText = "I love cats. Cats are very easy to love. Cats are very popular."
+        replaceAllText = replaceAllText.replaceAll("Cats", "Dogs");
+        replaceAllText = replaceAllText.replaceAll("cats", "dogs");
+        document.getElementById("replace_all_demo").innerHTML = replaceAllText;
+    </script>
+    <br>
+    <h3>The toUpperCase() Method</h3>
+    <p>Convert string to upper case:</p>
+    <button onclick="toUpperCase()">Click Here</button>
+    <p id="to_upper_demo">Hello World</p>
+    <br>
+    <h3>The toLowerCase() Method</h3>
+    <p>Convert string to lower case:</p>
+    <button onclick="toLowerCase()">Click Here</button>
+    <p id="to_lower_demo">HELLO WORLD</p>
+
+    <script src="main.js"></script>
+</body>
+</html>
