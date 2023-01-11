@@ -13,33 +13,17 @@
     <p id="slice_demo_one"></p>
     <p id="slice_demo_two"></p>
     <p id="slice_demo_three"></p>
-
-    <script>
-        let text = "Apple, Banana, Kiwi";
-        let text2 = text.slice(7,13); //Slice out a portion of a string from position 7 to position 13
-        let text3 = text.slice(7); //If you omit the second parameter, the method will slice out the rest of the string
-        let text4 = text.slice(-12); //If a parameter is negative, the position is counted from the end of the string
-        document.getElementById("slice_demo_one").innerHTML = text2;
-        document.getElementById("slice_demo_two").innerHTML = text3;
-        document.getElementById("slice_demo_three").innerHTML = text4;
-    </script>
+    <br>
 
     <h3>The substring() Method</h3>
     <p>substring() is similar to slice(). The difference is that start and end values less than 0 are treated as 0 in substring().</p>
     <p id="sub_demo"></p>
-
-    <script>
-        let sub_text = "Apple, Banana, Kiwi";
-        document.getElementById("sub_demo").innerHTML = sub_text.substring(7,13);
-    </script>
+    <br>
 
     <h3>The substr() Method</h3>
     <p>substr() is similar to slice(). The difference is that the second parameter specifies the length of the extracted part.</p>
     <p id="str_demo"></p>
 
-    <script>
-        let str_text = "Apple, Banana, Kiwi";
-        document.getElementById("str_demo").innerHTML = str_text.substr(7,6);
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
